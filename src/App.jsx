@@ -14,7 +14,7 @@ function App() {
      const  bgArreglado =  RandomIndex(bgArray)
     
      const [bgApp, setbgApp] = useState(bgArreglado);
-     const bgEstilos = {backgroundImage: `url('../public/assets/fondo${bgApp}.jpg')`}
+     const bgEstilos = {backgroundImage: `url('../assets/fondo${bgApp}.jpg')`}
 
 
   return (
