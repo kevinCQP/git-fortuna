@@ -1,0 +1,68 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+html{
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+body{
+  
+  background-color: black;
+  color: white;
+ padding: 0;
+ margin: 0;
+
+  
+  
+}
+button{
+  cursor: pointer;
+  font-family: inherit;
+  color: #BA624F;
+  background-color: #FEA646;
+  border: 2px solid;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 900;
+}
+
+h1{
+  text-align: center;
+  text-shadow: 2px 2px   0 orange,
+              -2px -2px   0 orange,
+              -2px 2px   0 orange,
+              2px -2px   0 orange;
+
+}
+p{
+  text-align: center;
+  background-color: #FFFFFF;
+  color: #6F6F6F;
+  padding: 15px;
+  border-radius: 5px;
+}
+.fraseAutor{
+  min-height: 74vh;
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.app{
+  min-height: 100vh;
+  background-image: url('../public/assets/fondo4.jpg');
+  background-position: center;
+}
+.container{
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 95vh;
+}
