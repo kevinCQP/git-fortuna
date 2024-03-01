@@ -1,6 +1,6 @@
 
 import './App.css'
-import RandomFrases from './componentes/randomfrases';
+import RandomFrases from './componentes/RandomFrases';
 import frases from './utils/frases.json';
 import RandomIndex from './services/RandomIndex';
 import { useState } from 'react';
